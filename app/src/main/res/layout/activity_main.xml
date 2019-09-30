@@ -14,10 +14,16 @@
         android:inputType="text" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/loginBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Get body" />
+        android:text="Get login" />
+
+    <Button
+        android:id="@+id/reposBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get repos" />
 
     <EditText
         android:id="@+id/result"
